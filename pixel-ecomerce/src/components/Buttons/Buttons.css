@@ -1,0 +1,16 @@
+
+.buttonContainer{
+    width: 100%;
+}
+
+.buttonGroup{
+    border: 2px blue solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    padding: 5px;
+}
