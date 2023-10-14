@@ -1,5 +1,6 @@
 import React from 'react'
 
+//Importo ListProducts, componente que contiene la llamada a la API
 import ListProducts from '../components/ListProducts/ListProducts'
 
 const Home = () => {

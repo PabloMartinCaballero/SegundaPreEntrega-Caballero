@@ -1,7 +1,4 @@
 import React from 'react'
-import "./CardProducts.css"
-
-import * as React from 'react';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
@@ -10,12 +7,12 @@ import { CardActionArea } from '@mui/material';
 
 const CardProducts = ({product}) => {
 
-    {/*Desestructuro el objeto que voy a recibir de la Api */}
+    {/*Desestructuro el objeto que voy a recibir por parametro*/}
 
     const {category,description,id,image,price,title
     } = product
 
-
+    
 
   return (
     <Card sx={{ maxWidth: 345 }}>

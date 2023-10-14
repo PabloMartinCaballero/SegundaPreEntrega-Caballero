@@ -1,5 +1,6 @@
 .List-Products{
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     align-items: center;
+    gap: 15px;
 }
